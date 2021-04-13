@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="398.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="hu.unideb.inf.FXMLweathercontrollerController">
+   <children>
+      <Button layoutX="14.0" layoutY="40.0" mnemonicParsing="false" onAction="#sundaypush" text="Sunday" />
+      <Label fx:id="afternoondegrees" layoutX="243.0" layoutY="119.0" prefHeight="145.0" prefWidth="121.0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="afternoon" layoutX="272.0" layoutY="265.0" prefHeight="18.0" prefWidth="55.0" />
+      <Button layoutX="97.0" layoutY="40.0" mnemonicParsing="false" onAction="#mondaypush" text="Monday" />
+      <Button layoutX="260.0" layoutY="40.0" mnemonicParsing="false" onAction="#wednesdaypush" text="Wednesday" />
+      <Button layoutX="183.0" layoutY="40.0" mnemonicParsing="false" onAction="#tuesdaypush" text="Tuesday" />
+      <Button layoutX="522.0" layoutY="40.0" mnemonicParsing="false" onAction="#saturdaypush" text="Saturday" />
+      <Button layoutX="453.0" layoutY="40.0" mnemonicParsing="false" onAction="#fridaypush" text="Friday" />
+      <Button layoutX="365.0" layoutY="40.0" mnemonicParsing="false" onAction="#thursday" text="Thursday" />
+      <Label layoutX="240.0" layoutY="14.0" prefHeight="18.0" prefWidth="142.0" text="ZAMFARA WEATHER" />
+   </children>
+</AnchorPane>
