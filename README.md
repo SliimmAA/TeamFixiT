@@ -9,7 +9,7 @@ mini version of WeatherApp
 - connection url - jdbc:h2:tcp://localhost/./projectDB1
 - username - admin
 - password - admin
-
+//tt
 
 check the main class for login username and password in mainApp
   
