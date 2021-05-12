@@ -1,12 +1,12 @@
 # TeamAvengers
 Software Dev 2020 school group project
 
-mini version of Neptun "Meptun"
+mini version of WeatherApp
 
 ## Database:
 - connection driver_class - org.h2.Driver
 ##### Dont Forget to create projectDB folder in C:\Users\youruser
-- connection url - jdbc:h2:tcp://localhost/./projectDB 
+- connection url - jdbc:h2:tcp://localhost/./projectDB1
 - username - admin
 - password - admin
 
