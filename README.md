@@ -1,7 +1,7 @@
 # TeamRangers
 Software Dev 2021 school group project
 
-mini version of WeatherApp
+mini version of Administrator Login For A WeatherApp
 
 ## Database:
 - connection driver_class - org.h2.Driver
